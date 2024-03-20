@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<title>Grafica</title>
+
+<body class="all">
+  <div class="write">
+  <div id="chartdiv"></div>
+  <form id="taskForm">
+    <label  for="taskName">Agregar nombre de la materia:</label>
+    <input class="text" type="text" id="taskName" required>
+    <label  for="taskRating">Calificación:</label>
+    <input class="text1" type="number" id="taskRating" min="1" max="10" required>
+    <button class="container" type="submit">Agregar</button>
+  </form>
+</div>
+  <!-- JavaScript -->
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
